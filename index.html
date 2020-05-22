@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Attempt at Bezier Curves</title>
+        <link rel = "stylesheet" type = "text/css" href="styles.css">
+    </head>
+
+    <body>
+        <canvas id="mycanvas" height = "600" width = "600"></canvas>
+
+        <p id = "click_mode"> </p>
+
+        <!-- buttons for interacting with JS -->
+        <button onclick = "clickMode = true">Click to add control points</button>
+        <button onclick = "randomRestart();">Click to randomise control points</button>
+        <button onclick = "wipe()"> click to clear canvas </button>
+        <button onclick = "start = true">Click to begin</button>
+        <button onclick = "start = false">Click to stop</button>
+        <button onclick = "showLines = true">Show Lines</button>
+        <button onclick = "showLines = false">Hide Lines</button>
+
+    </body>
+
+    <script src = "buttons.js"></script>
+    <script src = "pointClass.js"></script>
+    <script src = "bezier.js"></script>
+    <script src = "app.js"></script>
+
+</html>
