@@ -20,15 +20,6 @@ function rand(lo,hi){
     return Math.random()*(hi-lo) + lo
 }
 
-function randColour(){
-    return "rgb(" + String(Math.floor(Math.random()*255)) + "," +  String(Math.floor(Math.random()*255)) + "," + String(Math.floor(Math.random()*255))
-}
-
-function beginClicking(){
-    wipe();
-    clickMode = true;
-}
-
 function click(e){
     // Creates a control points for the Bezier Curve where the mouse is clicked
     let x = Math.floor(e.clientX)
@@ -80,7 +71,3 @@ function main(){
 
 
 var intervalID = setInterval(main, delay) //This calls the main function after "delay" amount of time
-
-if(!clickMode){
-    randomRestart()
-}
