@@ -10,3 +10,5 @@ There is then a final point K which 'walks' along the line PQ. The coordinates t
 This idea generalises to more control points where we have points walking along lines which create more lines of points walking across them etc... Hence its a good idea to implement recursion, but it may not be the most efficient method. 
 
 Bezier Curves are used a lot in Graphic Design and computer aided drawing since it's a way to create a smooth curve that begins and ends at a point and can be morphed by a third. Lots of quadratic Bezier Curves stitched together are usually used in the making of fonts.
+
+To use this programme click the link to the website and select one of the buttons to create control points. Press start when you want to see the bezier curve. 
